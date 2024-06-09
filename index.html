@@ -2186,6 +2186,44 @@ input, select, textarea {
 		-ms-transform: none;
 		transform: none;
 	}
+
+	/* Adicione isso ao seu arquivo CSS principal */
+
+/* Estilos gerais para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    #main .thumb {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #main .thumb .image {
+        width: 100%;
+        height: auto;
+    }
+    #main .thumb h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #main .thumb p {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
+
+/* Exemplo de ajuste de imagem e texto dentro de artigos */
+.article .thumb .image img {
+    width: 100%;
+    height: auto;
+}
+
+.article .thumb h2,
+.article .thumb p {
+    display: block;
+    width: 100%;
+}
+
 	</style>
 	<head>
 		<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1249135233878724680/1249151888302018651/Design_sem_nome_5.png?ex=666642da&is=6664f15a&hm=fea8f6eb6334f2a951e18bb05f8aa62a0405d353a39add9d09e1a2d460c6720e&" />
